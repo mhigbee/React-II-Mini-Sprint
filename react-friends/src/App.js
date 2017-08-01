@@ -7,11 +7,11 @@ class App extends Component {
   constructor () {
     super();
     this.state = {
-      People: [],
+      people: [],
     };
   }
   componentDidMount() {
-    this.setState({People: people});
+    this.setState({people: people});
   }
   render() {
     return (
